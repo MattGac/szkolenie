@@ -22,12 +22,16 @@
             <option value="gda">Gdańsk</option>
         </select><br /><br />
         Płeć<br />
-            <input type="radio" name="gender">Kobieta <br />
-            <input type="radio" name="gender">Męczyzna<br /><br />
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Męzczyzna</label> <br>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta</label>
+        <br>
     
-            <input type="checkbox" name="agreement">Zgoda na dane osobowe <br /><br />
-            <textarea name="msg"></textarea><br />
-            <input type="submit" value="Wyślij"><br />    
+        <input type="checkbox" name="agreement" value="zgoda" id="zgoda"> 
+        <label for="zgoda">Zgoda na dane osobowe</label> <br>
+        <textarea name="msg"></textarea><br />
+        <input type="submit" value="Wyślij"><br />    
 
     </form>
 </body>
